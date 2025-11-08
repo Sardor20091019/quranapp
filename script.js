@@ -26,7 +26,7 @@ loadSurahBtn.addEventListener("click", async () => {
   contentArea.innerHTML = `<h2>${surah.englishName} - <span>${
     surah.name
   }</span></h2>
-  <p><strong>Oyalar soni:</strong> ${surah.numberOfAyahs}</p>
+  <p><strong>Oyatlar soni:</strong> ${surah.numberOfAyahs}</p>
   <hr>
   <div>
     ${surah.ayahs
@@ -68,3 +68,4 @@ function playAudio(url) {
   const audio = new Audio(url);
   audio.play();
 }
+
